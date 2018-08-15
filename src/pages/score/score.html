@@ -1,0 +1,41 @@
+<!--
+  Generated template for the ScorePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>score</ion-title>
+  </ion-navbar>
+
+</ion-header>
+<ion-content class="bck">
+    
+<div class="row" >
+  <div class="column"(click)="hme(1)">
+    <h1>Home</h1>
+    <ion-label class="teams">{{home2}}</ion-label>
+    <ion-label>{{Hscore}}</ion-label>
+  </div>
+  <div class="centered">VS</div>
+  
+  <div class="column"(click)="hme(2)">
+    <h1>Away</h1>
+    <ion-label class="teams">{{away2}}</ion-label>
+    <ion-label>{{Ascore}}</ion-label>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<button ion-button  outline color="light" class="btn" (click)="Try ()">Try</button><button ion-button outline color="light" class="btn1" (click)="undotry()"><ion-icon name="undo"></ion-icon> </button> <br>
+<button ion-button outline color="light" class="btn" (click)="Penalty ()">Penalty</button><button ion-button outline color="light" class="btn1" (click)="undoPenalty()"><ion-icon name="undo"></ion-icon> </button> <br>
+<button ion-button outline color="light" class="btn" (click)="Conversion ()">Conversion </button><button ion-button outline color="light" class="btn1" (click)="undoConversion()"> <ion-icon name="undo"></ion-icon> </button> <br>
+<button ion-button block outline color="light" class="btn1"(click)="Reset ()">Reset</button> 
+</ion-content>

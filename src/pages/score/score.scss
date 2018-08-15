@@ -1,0 +1,67 @@
+page-score {
+    * {
+        box-sizing: border-box;
+    }
+    
+    /* Create four equal columns that floats next to each other */
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 50px
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        
+    }
+    .active,.column:hover { 
+        background-color:rgb(72, 245, 159);
+    }
+    ion-label{
+        font-size: 50px;
+        text-align: center;
+        padding-top: 50px
+    
+    }
+    h1{
+        text-align: center;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 100px
+    }
+    .centered {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 15px 50px; 
+        
+         
+    }
+    .btn{
+        border-radius: 50px;
+        width: 80%   
+    }
+    .btn1{
+        border-radius: 25px;
+    }
+    .bck{
+        color: black;
+        background:linear-gradient(160deg,#25e073 40%, #39b8b1 60%);
+        // #41e9e0
+    }
+    .teams{
+        font-size:30px;
+        
+    }
+
+
+}

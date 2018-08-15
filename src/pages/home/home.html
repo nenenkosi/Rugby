@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="bck" padding>
+  <h2>Rugby Score</h2>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <ion-list>
+    <ion-item class="asd">
+      <ion-label floating>Home</ion-label>
+      <ion-input type="text" #Home></ion-input>
+    </ion-item>
+  <h1>VS</h1>
+    <ion-item class="asd">
+      <ion-label floating>Away</ion-label>
+      <ion-input type="text"#Away></ion-input>
+    </ion-item>
+  </ion-list>
+  <button ion-button block class="btn"(click)="nxt (Home.value,Away.value)">Start</button>
+
+</ion-content>

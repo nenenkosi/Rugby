@@ -1,0 +1,32 @@
+page-home {
+    .bck{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../assets/imgs/womens-rugby-world-cup-trophy-1023x640.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    h1{
+        text-align: center;
+        color: white;
+    }
+    h2{
+        text-align: center;
+        color: white;
+        font-size: 70px;
+    }
+    .btn{
+        border-radius: 100px
+    }
+    .asd{
+        background-color: rgba(0, 0, 0, 0);
+        border-color: rgba(0, 0, 0, 0)
+    }
+    ion-label{
+        color: white
+    }
+    ion-input{
+        color: white
+       
+    }
+
+}
